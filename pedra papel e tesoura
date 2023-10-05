@@ -1,0 +1,22 @@
+jogador1= input("faça sua escolha: ")
+jogador2= input("faça sua escolha: ")
+if jogador1=='tesoura' and jogador2== 'papel':
+    print("jogador 1 venceu")
+elif jogador1== 'tesoura' and jogador2=='pedra':
+    print("jogador 2 venceu")
+  
+  
+if jogador1=='pedra' and jogador2=='tesoura':
+    print("jogador 1 venceu")
+elif jogador1=='pedra' and jogador2=='papel':
+    print(" jogador 2 ganha")
+
+
+if jogador1=='papel' and jogador2=='tesoura':
+   print("jogador 2 ganhou")
+elif jogador1=='papel' and jogador2=='pedra':
+    print("jogador 1 venceu")
+
+
+elif jogador1==jogador2:
+    print("empate")
